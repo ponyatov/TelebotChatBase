@@ -3,6 +3,8 @@
 *.log
 nohup.out
 /docs/
+lib64
+lib/python*/
 .idea
 venv
 .env
