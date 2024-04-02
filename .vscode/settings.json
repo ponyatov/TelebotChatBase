@@ -1,6 +1,7 @@
 {
     "files.exclude":{
         "lib64": true,
+        "bin/python*": true, "bin/pip*": true, "bin/activate*": true,
         "include": true,
         "lib/python*": true,
     }
