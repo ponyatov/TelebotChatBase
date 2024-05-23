@@ -1,3 +1,8 @@
+
+.PHONY: all
+all: .env
+	bin/python3 main.py
+
 .PHONY: install update gz
 install:
 	$(MAKE) update

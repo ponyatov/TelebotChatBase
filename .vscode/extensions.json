@@ -2,5 +2,6 @@
     "recommendations": [
         "foxundermoon.shell-format",
         "ms-python.python",
+        "coolbear.systemd-unit-file",
     ]
 }

@@ -1,0 +1,14 @@
+[Unit]
+Description = Intetix telebot @ %I
+After = network.target
+After = syslog.target
+
+[Service]
+Type = simple
+WorkingDirectory = /home/%i/TelebotChatBase
+User  = %i
+Group = %i
+ExecStart = /usr/bin/make
+
+[Install]
+WantedBy = multi-user.target
