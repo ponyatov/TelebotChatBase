@@ -9,3 +9,5 @@ lib/python*/
 venv
 .env
 !.gitignore
+share/
+data/
